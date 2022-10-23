@@ -14,7 +14,6 @@ url_list = [
 
 for convert in url_list:
     print(Finder(link_profile="%s"%(convert)))
-    print("%s %s"%(find,count))
 
 for parser in url_list:
     for resrap in Finder(link_profile="%s"%(parser)).content:
