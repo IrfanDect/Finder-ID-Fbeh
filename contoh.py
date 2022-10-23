@@ -1,5 +1,4 @@
 from finder import Finder
-from rich import print
 
 url_list = [
         'https://www.facebook.com/Googles.09',
